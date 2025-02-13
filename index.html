@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <style>
+        /* CSS styling for the index (landing) page of the application) */
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        .btn {
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #3700b3;
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Academic Exchange Platform!!</h1>
+        <h3>Please Click on Register if you are a new user.</h3>
+        <div class="btn-container">
+            <button class="btn" onclick="window.location.href='login.jsp'">Login</button>
+            <button class="btn" onclick="window.location.href='register.jsp'">Register</button>
+        </div>
+    </div>
+</body>
+</html>
